@@ -1,0 +1,19 @@
+---
+title: Services
+call_to_action: Contact
+background_image_path:
+large_header: false
+show_in_navigation: true
+navigation_order: 2
+---
+
+<p class="editable">Get an introduction to some industry topics and stay informed with our in-depth advice articles.</p>
+
+<ol class="post-list">
+	{% for service in site.services %}
+	<li class="post-summary">
+		<h3>{{service.name}}</h3>
+		<p>{{service.description}}</p>
+	</li>
+	{% endfor %}
+</ol>
