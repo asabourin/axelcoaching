@@ -17,9 +17,6 @@ body {
 }
 
 header {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: calc(50% - 40px) 175px;
 	height: 420px;
 	box-sizing: border-box;
 
@@ -84,7 +81,7 @@ section {
 	padding: 30px 20px;
 
 	@media (min-width: $mobile-break) {
-		padding: 80px 40px;
+		padding: 40px;
 	}
 }
 
