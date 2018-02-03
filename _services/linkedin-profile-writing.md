@@ -1,6 +1,6 @@
 ---
 name: LinkedIn Profile Writing
-description: This will make you awesome
+description: Help you write an awesome LinkedIn profile
 ---
 
 

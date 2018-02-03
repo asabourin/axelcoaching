@@ -13,7 +13,7 @@ navigation_order: 2
 	{% for service in site.services %}
 	<li class="post-summary">
 		<h3>{{service.name}}</h3>
-		<p>{{service.description}}</p>
+		{{service.content}}
 	</li>
 	{% endfor %}
 </ol>
