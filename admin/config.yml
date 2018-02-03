@@ -14,6 +14,17 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  - name: "testimonials" # Used in routes, e.g., /admin/collections/testimonials
+    label: "Testimonials" # Used in the UI
+    folder: "_testimonials/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
