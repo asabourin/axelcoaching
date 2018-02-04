@@ -6,7 +6,7 @@ url: "https://www.axelcoaching.com.au"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-disqus_shortname:
+snipcart_api_key: YTg5MDNkMmItZmIyOC00YWZhLWE5MzctYWE2M2VhNDkxOGI2NjM2NTMzMDAzNDQzMDgwNTc5
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -27,8 +27,9 @@ paginate: 10
 paginate_path: "/advice/:num/"
 
 collections:
-  - "services"
-  - "testimonials"
+  services:
+    output: true
+  testimonials:
 
 defaults:
   -
