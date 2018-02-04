@@ -19,7 +19,7 @@ head:
     data-item-name="{{ service.name }}"
     data-item-id="{{ service.sku }}"
     data-item-image="{{ service.image }}"
-    data-item-url="{{ page.url }}"
+    data-item-url="{{site.url}}{{ page.url }}"
     data-item-price="{{ service.price }}">
     Book it for ${{ service.price }}
   </button>

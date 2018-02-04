@@ -61,6 +61,17 @@ defaults:
           width: 440
           height: 440
 
+  -
+    scope:
+      path: ""
+      type: "services"
+    values:
+      layout: service
+      _options:
+        image:
+          width: 440
+          height: 440
+
 permalink: pretty
 
 jekyll-archives:
