@@ -32,6 +32,10 @@
 	    {% include {{ script }} %}
 	  {% endfor %}
 
+	  {% for script in layout.head %}
+	    {% include {{ script }} %}
+	  {% endfor %}
+
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	</head>
