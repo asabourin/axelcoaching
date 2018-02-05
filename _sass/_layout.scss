@@ -19,7 +19,12 @@ body {
 header {
 	height: 420px;
 	box-sizing: border-box;
-
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ), url('/images/background.png');
+	background-position: top right;
+	
 	.container {
 		text-align: center;
 	}
@@ -29,8 +34,7 @@ header {
 	}
 
 	@media (min-width: $mobile-break) {
-		background-size: contain;
-		background-position: calc(50% - 300px) calc(100% + 20px);
+		background-size: cover;
 
 		.container {
 			display: flex;
@@ -63,8 +67,8 @@ header {
 header,
 footer {
 	a {
-		color: #3A4145;
-
+		color: #fff;
+		font-size: 1.5em;
 		&.active {
 			border-bottom: 2px solid;
 		}
