@@ -22,7 +22,7 @@ header {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.5)
-    ), url('/images/background.png');
+    ), url('/images/background.jpg');
 	background-position: top right;
 	
 	.container {
@@ -64,10 +64,22 @@ header {
 	}
 }
 
-header,
-footer {
+header {
 	a {
 		color: #fff;
+		font-size: 1.5em;
+		&:hover {
+			color: #73a9c9
+		}
+		&.active {
+			border-bottom: 2px solid;
+		}
+	}
+}
+
+footer {
+	a {
+		color: #3A4145;
 		font-size: 1.5em;
 		&.active {
 			border-bottom: 2px solid;
@@ -131,6 +143,11 @@ section {
 
 .quote-section {
 	@extend .dark-section;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url('/images/discussion.jpg');
+	background-size: cover;
 	font-size: 3rem;
 	font-style: italic;
 	padding: 70px 20px;
