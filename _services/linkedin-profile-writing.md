@@ -1,5 +1,5 @@
 ---
-name: LinkedIn Profile Writing
+title: LinkedIn Profile Writing
 description: Help you write an awesome LinkedIn profile
 sku: 2
 price: 200

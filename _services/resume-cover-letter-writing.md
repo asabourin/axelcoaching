@@ -1,5 +1,5 @@
 ---
-name: Resume & Cover Letter Writing
+title: Resume & Cover Letter Writing
 description: This will make you awesome
 sku: 1
 price: 300
