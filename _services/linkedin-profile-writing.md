@@ -1,5 +1,5 @@
 ---
-name: LinkedIn Profile Writing
+title: LinkedIn Profile Writing
 sku: 2
 price: 200
 ---

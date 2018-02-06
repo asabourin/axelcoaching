@@ -1,5 +1,5 @@
 ---
-name: Resume Writing
+title: Resume Writing
 sku: 1
 price: 300
 ---

@@ -6,14 +6,14 @@ head:
 <div class="product-details">
 
   <div class="product-description">
-    <h2>{{ page.name }}</h2>
+    <h2>{{ page.title }}</h2>
 
     <p>
       {{ page.content }}
     </p>
 
     <button class="snipcart-add-item"
-      data-item-name="{{ page.name }}"
+      data-item-name="{{ page.title }}"
       data-item-id="{{ page.sku }}"
       data-item-image="{{ page.image }}"
       data-item-url="{{site.url}}{{ page.url }}"
