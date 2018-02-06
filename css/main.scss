@@ -5,8 +5,13 @@ sitemap: false
 
 $mobile-break: 700px;
 
+$primary: #2c4d92;
+$dark: #3A4145;
+
+@import "font";
 @import "typography";
 @import "layout";
 @import "forms";
+@import "elements";
 
 @import "snipcart";

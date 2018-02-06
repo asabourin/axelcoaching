@@ -4,3 +4,8 @@ contact_email_address: contact@example.com
 contact_phone_number: (03) 123 4567
 address: 123 Example Street, Gooseburb, 9876, Ducktown, New Zealand
 postal_address: PO Box 123, Ducktown, New Zealand
+ebook:
+  price: 40
+  label: Axel Coaching E-book
+  image:
+  sku: ebook

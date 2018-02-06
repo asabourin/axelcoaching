@@ -1,0 +1,16 @@
+---
+title: Testimonials
+call_to_action: Contact
+layout: page
+---
+
+<p class="editable">Happy customers</p>
+
+<div class="post-list">
+	{% for testimonial in site.testimonials %}
+	<div class="box">
+		<h3>{{testimonial.name}}</h3>
+        {{testimonial.content}}
+	</div>
+	{% endfor %}
+</div>

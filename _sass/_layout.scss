@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	height: 420px;
+	height: 360px;
 	box-sizing: border-box;
 	background: linear-gradient(
       rgba(0, 0, 0, 0.2),
@@ -38,12 +38,13 @@ header {
 
 		.container {
 			display: flex;
+			flex-direction: column;
 			align-items: center;
 			justify-content: space-between;
 		}
 
 		.logo {
-			height: 300px;
+			height: 250px;
 		}
 
 	}
@@ -59,6 +60,10 @@ header {
 			li {
 				display: inline-block;
 				margin: 0 10px;
+
+				a {
+					display: block;
+				}
 			}
 		}
 	}
@@ -66,10 +71,11 @@ header {
 
 header {
 	a {
-		color: #fff;
-		font-size: 1.5em;
+		color: white;
+		font-size: 1.2em;
 		&:hover {
-			color: #73a9c9
+			text-decoration: underline;
+			color: white;
 		}
 		&.active {
 			border-bottom: 2px solid;
@@ -97,7 +103,7 @@ section {
 	padding: 30px 20px;
 
 	@media (min-width: $mobile-break) {
-		padding: 40px;
+		padding: 30px;
 	}
 }
 

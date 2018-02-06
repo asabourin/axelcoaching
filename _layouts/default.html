@@ -28,13 +28,7 @@
 			</script>
 		{% endif %}
 
-		{% for script in page.head %}
-	    {% include {{ script }} %}
-	  {% endfor %}
-
-	  {% for script in layout.head %}
-	    {% include {{ script }} %}
-	  {% endfor %}
+		{% include snipcart.html %}
 
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
@@ -44,14 +38,24 @@
 		<header>
 			<div class="container">
 				<div class="logo-wrapper">
-					<a href="{{site.url}}"><img class="logo" src="/images/axelcoaching_border.png"></a>
+					<a href="{{site.url}}"><img class="logo" src="/images/axelcoaching.png"></a>
 				</div>
 				<nav>
 					<ul>
-						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
-						{% for nav_page in nav_pages %}
-							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
-						{% endfor %}
+						<li><a href="{{ site.baseurl }}/about">About Us</a></li>
+						<li class="dropdown-toggle">
+							<a href="{{ site.baseurl }}/services">Services <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								{% for service in site.services %}
+									<li><a href="{{ site.baseurl }}{{service.url}}">{{service.name}}</a>
+								{% endfor %}
+							</ul>
+						</li>
+						<li><a href="{{ site.baseurl }}/ebook">E-book</a></li>
+						<li><a href="{{ site.baseurl }}/testimonials">Testimonials</a></li>
+						<li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
+						<li><a href="#" class="snipcart-checkout"><i class="icon-basket"></i></a></li>
+
 					</ul>
 				</nav>
 			</div>
