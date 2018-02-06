@@ -42,9 +42,8 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="{{ site.baseurl }}/about">About Us</a></li>
 						<li class="dropdown-toggle">
-							<a href="{{ site.baseurl }}/services">Services <span class="caret"></span></a>
+							<a href="{{ site.baseurl }}/services">Our Services <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								{% for service in site.services %}
 									<li><a href="{{ site.baseurl }}{{service.url}}">{{service.name}}</a>
@@ -53,6 +52,7 @@
 						</li>
 						<li><a href="{{ site.baseurl }}/ebook">E-book</a></li>
 						<li><a href="{{ site.baseurl }}/testimonials">Testimonials</a></li>
+						<li><a href="{{ site.baseurl }}/about">About Us</a></li>
 						<li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
 						<li><a href="#" class="snipcart-checkout"><i class="icon-basket"></i></a></li>
 
