@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accounts
+title: Operations Manager at Tradecorp
 name: Francisca S.
 image: //placebear.com/440/440?a=.png
 ---
