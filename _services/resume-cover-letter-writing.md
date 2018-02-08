@@ -15,7 +15,7 @@ This includes a:
 
 ➢	FREE “Complete Guide to Job Hunting” e-book
 
-**\    How does it work?**
+\    How does it work?
 
 1.     Once your payment and resume have been received, we will get in touch with you within 1 business day. The initial phone call is generally to get to know you personally, understand your motivators and your employment history as well as your career goals.
 
