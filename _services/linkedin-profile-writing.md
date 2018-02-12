@@ -1,6 +1,6 @@
 ---
 title: LinkedIn Profile Writing
-position: 5
+position: 3
 ---
 Our LinkedIn service comprises of incorporating optimised keywords to enhance your profile visibility to employers. Our complimentary guide includes how to utilise LinkedIn to your job-hunting advantage. This service includes: 
 

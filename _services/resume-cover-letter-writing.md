@@ -1,6 +1,6 @@
 ---
 title: Resume Writing
-position: 6
+position: 1
 ---
 Our resume writing service involves writing or rewriting your resume for you based on roles you are seeking. We call you for a quick chat to better understand your employment history and what roles you are looking to apply to. 
 

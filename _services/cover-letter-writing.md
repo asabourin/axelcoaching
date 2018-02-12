@@ -1,6 +1,6 @@
 ---
 title: Cover Letter Writing
-position: 1
+position: 2
 ---
 This service allows us to tailor a cover letter for a specific application or a general one as you wish. We ask that you send us your resume so that we can best understand your background, which is then followed by a phone call to ensure we are on the correct path. This service includes a: 
 

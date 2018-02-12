@@ -19,7 +19,7 @@ layout: default
       <p>{{product.title}}:
 
         <button class="snipcart-add-item"
-        data-item-name="{{ product.title }}"
+        data-item-name="{{ page.title }} - {{ product.title }}"
         data-item-id="{{ page.title | slugify }}-{{ product.title | slugify }}"
         data-item-image="{{ product.image }}"
         data-item-url="{{site.url}}{{ page.url }}"

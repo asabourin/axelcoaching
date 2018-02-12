@@ -25,12 +25,3 @@ call_to_action: Contact
 
 </p>
 </div>
-
-<div class="testimonials">
-	{% for testimonial in site.testimonials %}
-		<blockquote class="testimonial">
-			<div class="testimonial-message">{{ testimonial.content }}</div>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
-		</blockquote>
-	{% endfor %}
-</div>

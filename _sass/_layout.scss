@@ -272,8 +272,11 @@ footer {
 }
 
 .testimonial {
-	flex: 1 0 0%;
-	margin: 0 20px;
+	flex: 1 0 50%;
+	margin: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	max-width: 50%;
 }
 
 .testimonial-author {
@@ -283,8 +286,8 @@ footer {
 	margin: 25px 20px 0 20px;
 
 	img {
-		max-width: 30px;
-		max-height: 30px;
+		max-width: 50px;
+		max-height: 50px;
 		border-radius: 50%;
 		margin-right: 10px;
 		position: relative;
