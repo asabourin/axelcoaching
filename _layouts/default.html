@@ -45,7 +45,8 @@
 						<li class="dropdown-toggle">
 							<a href="{{ site.baseurl }}/services">Our Services <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								{% for service in site.services %}
+								{% assign services = site.services | sort: "position" %}
+								{% for service in services %}
 									<li><a href="{{ site.baseurl }}{{service.url}}">{{service.title}}</a>
 								{% endfor %}
 							</ul>
