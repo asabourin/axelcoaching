@@ -1,7 +1,5 @@
 ---
 layout: default
-head:
-  snipcart.html
 ---
 <div class="product-details">
 
@@ -12,13 +10,24 @@ head:
       {{ page.content }}
     </p>
 
-    <button class="snipcart-add-item"
-      data-item-name="{{ page.title }}"
-      data-item-id="{{ page.sku }}"
-      data-item-image="{{ page.image }}"
-      data-item-url="{{site.url}}{{ page.url }}"
-      data-item-price="{{ page.price }}">
-      Book it now for ${{ page.price }}
-    </button>
+    <h3>Book now</h3>
+
+    {% assign products = site.products | where: "category", page.title %}
+
+    {% for product in products %}
+
+      <p>{{product.title}}:
+
+        <button class="snipcart-add-item"
+        data-item-name="{{ product.title }}"
+        data-item-id="{{ page.title | slugify }}-{{ product.title | slugify }}"
+        data-item-image="{{ product.image }}"
+        data-item-url="{{site.url}}{{ page.url }}"
+        data-item-price="{{ product.price }}">
+        ${{ product.price }}
+        </button>
+      </p>
+
+    {% endfor %}
   </div>
 </div>

@@ -1,11 +1,10 @@
 ---
 title: Resume Writing
-sku: 1
-price: 300
 ---
 Our resume writing service involves writing or rewriting your resume for you based on roles you are seeking. We call you for a quick chat to better understand your employment history and what roles you are looking to apply to. 
 
-This includes a:
+This includes a:
+
 
 ➢	15 minute phone call
 
@@ -15,7 +14,8 @@ This includes a:
 
 ➢	FREE “Complete Guide to Job Hunting” e-book
 
-How does it work?
+How does it work?
+
 
 1.     Once your payment and resume have been received, we will get in touch with you within 1 business day. The initial phone call is generally to get to know you personally, understand your motivators and your employment history as well as your career goals.
 
@@ -27,6 +27,7 @@ How does it work?
 
 5.	Resume writing services are undertaken through the phone followed up via email/phone. Our resume writing service is available to candidates located both in and out of Australia. Phone calls can alternatively be replaced with Skype calls as best suits the candidate’s location. International calls must take place via Skype.
 
-6.	You will also receive a complimentary copy of our “Complete Guide to Job Hunting” e-book with this service.
+6.	You will also receive a complimentary copy of our “Complete Guide to Job Hunting” e-book with this service.
+
 
 Please note:

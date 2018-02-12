@@ -1,9 +1,8 @@
 ---
 title: LinkedIn Profile Writing
-sku: 2
-price: 200
 ---
-Our LinkedIn service comprises of incorporating optimised keywords to enhance your profile visibility to employers. Our complimentary guide includes how to utilise LinkedIn to your job-hunting advantage. This service includes: 
+Our LinkedIn service comprises of incorporating optimised keywords to enhance your profile visibility to employers. Our complimentary guide includes how to utilise LinkedIn to your job-hunting advantage. This service includes: 
+
 
 ➢	5 minute phone call
 
@@ -11,11 +10,13 @@ Our LinkedIn service comprises of incorporating optimised keywords to enhance yo
 
 ➢	Profile visibility enhancement to employers/recruiters
 
-➢	FREE “ Complete Guide to Job Hunting” e-book
+➢	FREE “ Complete Guide to Job Hunting” e-book
 
 
 
-How does it work?
+
+How does it work?
+
 
 1.	Once your payment and resume have been received, we will get in touch with you within 1 business day. The phone call is to have a quick chat to better understand your experience and what roles you are looking so that we can enhance your Profile to employers based on what you are looking for.
 
@@ -25,4 +26,5 @@ How does it work?
 
 4.	LinkedIn writing services are undertaken through the phone followed up via email/phone. This service is available to candidates located both in and out of Australia. Phone calls can alternatively be replaced with Skype calls as best suits the candidate’s location. International calls must take place via Skype.
 
-Please note:
+
+Please note:
