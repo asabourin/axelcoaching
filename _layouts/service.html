@@ -16,17 +16,22 @@ layout: default
 
     {% for product in products %}
 
-      <p>{{product.title}}:
+      <div class="box product-box">
 
-        <button class="snipcart-add-item"
-        data-item-name="{{ page.title }} - {{ product.title }}"
-        data-item-id="{{ page.title | slugify }}-{{ product.title | slugify }}"
-        data-item-image="{{ product.image }}"
-        data-item-url="{{site.url}}{{ page.url }}"
-        data-item-price="{{ product.price }}">
-        ${{ product.price }}
+        <h4>{{product.title}}</h4>
+
+        <p>{{product.content}}</p>
+
+        <button class="book-product snipcart-add-item"
+          data-item-name="{{ page.title }} - {{ product.title }}"
+          data-item-id="{{ page.title | slugify }}-{{ product.title | slugify }}"
+          data-item-image="{{ product.image }}"
+          data-item-url="{{site.url}}{{ page.url }}"
+          data-item-price="{{ product.price }}">
+          ${{ product.price }}
         </button>
-      </p>
+
+      </div>
 
     {% endfor %}
   </div>

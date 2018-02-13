@@ -1,7 +1,7 @@
 ---
 category: Cover Letter Writing
 title: Expat
-price: 100
+price: 150
 ---
 
 Cover letter for expat

@@ -52,7 +52,7 @@ li.dropdown-toggle:hover .dropdown-menu {
 }
 
 .dropdown-menu a {
-  font-size: 16px;
+  font-size: 1em;
   color: $dark;
   display: inline-block;
   line-height: 20px;
@@ -62,4 +62,16 @@ li.dropdown-toggle:hover .dropdown-menu {
     color: white;
     text-decoration: none;
   }
+}
+
+.product-box {
+  position: relative;
+  margin-top: 20px;
+}
+
+button.book-product {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
 }
