@@ -8,7 +8,7 @@ layout: page
     {% for testimonial in site.testimonials %}
         <blockquote class="testimonial">
             <div class="testimonial-message">{{ testimonial.content }}</div>
-            <p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+            <p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}<br> {{testimonial.title}}</p>
         </blockquote>
     {% endfor %}
 </div>
