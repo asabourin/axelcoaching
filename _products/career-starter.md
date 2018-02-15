@@ -1,6 +1,6 @@
 ---
 title: Career Starter
 category: Cover Letter Writing
-price: '76'
+price: '73'
 ---
 kjkj
