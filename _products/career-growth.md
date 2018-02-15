@@ -1,6 +1,6 @@
 ---
 title: Career Growth
-category: Cover Letter Writing
-price: '120'
+category: Resume Writing
+price: '155'
 ---
 kdfjkdjf
