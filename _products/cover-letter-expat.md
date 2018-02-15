@@ -1,5 +1,5 @@
 ---
-title: Career Starter Resume Writing Service
+title: Career Starter - Resume Writing Service
 category: 'Resume Writing '
 price: '120'
 ---
