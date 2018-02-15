@@ -1,7 +1,7 @@
 ---
 title: Career Starter Package
 category: Packages
-price: '355'
+price: '340'
 ---
 340
 
