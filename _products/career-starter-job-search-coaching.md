@@ -1,7 +1,7 @@
 ---
 title: Career Starter - Job Search Coaching
 category: Job Search Coaching
-price: '112'
+price: '120'
 ---
 120
 
