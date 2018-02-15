@@ -1,6 +1,6 @@
 ---
 title: Advanced Career
-category: Resume Writing
-price: '300'
+category: Cover Letter Writing
+price: '260'
 ---
-kjfkdjfkjd
+dkfjdkj
