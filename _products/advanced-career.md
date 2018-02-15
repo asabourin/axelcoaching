@@ -1,5 +1,5 @@
 ---
-title: Advanced Career
+title: Advanced Career - Cover Letter Service
 category: Cover Letter Writing
 price: '260'
 ---
