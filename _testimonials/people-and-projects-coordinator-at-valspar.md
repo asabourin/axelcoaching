@@ -1,6 +1,6 @@
 ---
 title: 'People and Projects Coordinator at Valspar '
-name: Nita H.
+name: 'Nita '
 image: >-
   https://raw.githubusercontent.com/asabourin/axelcoaching/master/uploads/nita.jpg
 ---
