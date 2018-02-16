@@ -1,7 +1,8 @@
 ---
-title: Advanced Career - Interview Preparation
+title: advanced-career-interview-preparation
+label: Advanced Career
 category: Interview Preparation
-price: '300'
+price: 300
 ---
 300
 

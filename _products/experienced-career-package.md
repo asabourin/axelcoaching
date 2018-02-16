@@ -1,9 +1,10 @@
 ---
 title: Experienced Career Package
 category: Packages
-price: '570'
+price: 570
 ---
-(5-10 years work experience)
+(5-10 years work experience)
+
 
 ➢	Resume Writing Service
 
@@ -13,4 +14,4 @@ price: '570'
 
 ➢	Salary guide
 
-➢	Free “Complete Guide to Job Hunting” e-book
+➢	Free “Complete Guide to Job Hunting” e-book

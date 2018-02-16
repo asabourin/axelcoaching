@@ -1,7 +1,7 @@
 ---
 title: Career Growth Package
 category: Packages
-price: '380'
+price: 380
 ---
 (1 to 5 years
  experience)
@@ -16,4 +16,4 @@ This package is best suited for those who are in the beginning of their careers 
 
 ➢	Salary guide
 
-➢	Free “Complete Guide to Job Hunting” e-book
+➢	Free “Complete Guide to Job Hunting” e-book

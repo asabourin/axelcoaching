@@ -1,7 +1,7 @@
 ---
 title: Experienced Career - Interview Preparation
 category: Interview Preparation
-price: '200'
+price: 200
 ---
 200
 

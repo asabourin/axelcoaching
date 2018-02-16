@@ -1,6 +1,7 @@
 ---
-title: Advanced Career  - LinkedIn Profile Writing
+title: advanced-career-linkedin-profile-writing
+label: Advanced Career
 category: LinkedIn Profile Writing
-price: '360'
+price: 360
 ---
 kjkj

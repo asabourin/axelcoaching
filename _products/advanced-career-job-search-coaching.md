@@ -1,6 +1,7 @@
 ---
-title: Advanced Career  - Job Search Coaching
+title: advanced-career-job-search-coaching
+label: Advanced Career
 category: Job Search Coaching
-price: '300'
+price: 300
 ---
 dfdf
