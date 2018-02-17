@@ -1,5 +1,6 @@
 ---
-title: Career Starter - Interview Preparation
+title: career-starter-interview-preparation
+label: Career Starter
 category: Interview Preparation
 price: 120
 ---

@@ -1,5 +1,6 @@
 ---
-title: 'Working Holiday Package '
+title: working-holiday-package
+label: Working Holiday Package
 category: Packages
 price: 180
 ---

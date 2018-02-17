@@ -1,5 +1,6 @@
 ---
-title: Career Starter - LinkedIn Profile Writing
+title: career-starter-linkedin-profile-writing
+label: Career Starter
 category: LinkedIn Profile Writing
 price: 180
 ---

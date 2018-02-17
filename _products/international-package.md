@@ -1,5 +1,6 @@
 ---
-title: International Package
+title: international-package
+label: International Package
 category: Packages
 price: 000
 ---

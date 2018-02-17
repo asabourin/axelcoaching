@@ -1,5 +1,6 @@
 ---
-title: Experienced Career - Interview Preparation
+title: experienced-career-interview-preparation
+label: Experienced Career
 category: Interview Preparation
 price: 200
 ---

@@ -1,5 +1,6 @@
 ---
-title: Career Starter - Job Search Coaching
+title: career-starter-job-search-coaching
+label: Career Starter
 category: Job Search Coaching
 price: 120
 ---

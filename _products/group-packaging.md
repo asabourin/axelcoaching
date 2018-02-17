@@ -1,5 +1,6 @@
 ---
-title: 'Group Packaging '
+title: group-packaging
+label: Group Packaging
 category: Packages
 price: 000
 ---

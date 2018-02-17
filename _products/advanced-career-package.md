@@ -1,5 +1,6 @@
 ---
-title: Advanced Career Package
+title: advanced-career-package
+label: Advanced Career Package
 category: Packages
 price: 860
 ---

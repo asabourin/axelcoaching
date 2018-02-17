@@ -1,5 +1,6 @@
 ---
-title: Experienced Career Package
+title: experienced-career-package
+label: Experienced Career Package
 category: Packages
 price: 570
 ---

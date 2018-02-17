@@ -1,5 +1,6 @@
 ---
-title: Career Growth - Resume Writing Service
+title: career-growth-resume-writing
+label: Career Growth
 category: Resume Writing
 price: 160
 ---

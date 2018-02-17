@@ -1,5 +1,6 @@
 ---
-title: Career Starter Package
+title: career-starter-package
+label: Career Starter Package
 category: Packages
 price: 340
 ---

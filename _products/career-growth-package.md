@@ -1,5 +1,6 @@
 ---
-title: Career Growth Package
+title: career-growth-package
+label: Career Growth Package
 category: Packages
 price: 380
 ---

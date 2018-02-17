@@ -1,5 +1,6 @@
 ---
-title: Career Growth - Interview Preparation
+title: career-growth-interview-preparation
+label: Career Growth
 category: Interview Preparation
 price: 160
 ---

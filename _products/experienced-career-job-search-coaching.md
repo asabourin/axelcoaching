@@ -1,5 +1,6 @@
 ---
-title: Experienced Career - Job Search Coaching
+title: experienced-career-job-search-coaching
+label: Experienced Career
 category: Job Search Coaching
 price: 200
 ---
