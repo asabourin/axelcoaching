@@ -69,9 +69,36 @@ li.dropdown-toggle:hover .dropdown-menu {
   margin-top: 20px;
 }
 
-button.book-product {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 100px;
+ul.prices-buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    &.multi {
+      width: 50%;
+    }
+  }
+  h5 {
+    margin-bottom: 10px;
+  }
+  a {
+    width: 49%;
+    max-width: 300px;
+    display: inline-block;
+    margin: 5px 0;
+    background-color: #2c4d92;
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+  }
 }

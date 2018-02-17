@@ -22,14 +22,26 @@ layout: default
 
         <p>{{product.content}}</p>
 
-        <button class="book-product snipcart-add-item"
-          data-item-name="{{ page.title }} - {{ product.title }}"
-          data-item-id="{{ page.title | slugify }}-{{ product.title | slugify }}"
-          data-item-image="{{ product.image }}"
-          data-item-url="{{site.url}}{{ page.url }}"
-          data-item-price="{{ product.price }}">
-          ${{ product.price }}
-        </button>
+
+        {% assign grouped_prices = product.prices | group_by:"level" %}
+        {% assign count = grouped_prices | size %}
+        <ul class="prices-buttons">
+
+        {% if count > 1 %}
+          {% assign class = "multi" %} 
+        {% endif %} 
+
+        {% for price_group in grouped_prices %}
+          <li class="{{class}}">
+            <h5>{{ price_group.name }}</h5>
+            {% for price in price_group.items %}
+              <a class="book-product" href="/contact#top">
+                {{price.type}}: ${{ price.price }}
+              </a>
+            {% endfor %}
+          </li>
+        {% endfor %}
+        <ul>
 
       </div>
 
