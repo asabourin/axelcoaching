@@ -25,9 +25,9 @@ map:
 	</div>
 
 	<div class="column">
-		<form method="post" name="contact" action="/contact-success/" data-netlify="true">
+		<form action='https://www.getform.org/f/09ad8bf8-1e9e-4a33-8ec0-59f5c74462f4' method="POST">
 			<label for="email_address">Email Address</label>
-			<input id="email_address" type="text" name="email">
+			<input id="email_address" type="email" name="email">
 
 			<label for="name">Name</label>
 			<input id="name" type="text" name="name">
@@ -35,10 +35,7 @@ map:
 			<label for="message">Message</label>
 			<textarea id="message" name="message"></textarea>
 
-			<input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
-			<input type="text" name="_gotcha" style="display: none;">
-
-			<input type="submit" value="Send Message">
+			<input id="submit" type="submit" value="Send Message">
 		</form>
 	</div>
 </div>

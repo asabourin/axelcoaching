@@ -15,6 +15,7 @@
 		{% seo %}
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
@@ -29,6 +30,8 @@
 		{% endif %}
 
 		{% include snipcart.html %}
+
+		{% include ajax_forms.html %}
 
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 

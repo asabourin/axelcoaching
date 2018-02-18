@@ -3,6 +3,13 @@ description: Axel Coaching, helping you kickstart your professional career in Au
 contact_email_address: contact@axelcoaching.com.au
 contact_phone_number: +61 (0) 499 709 137
 address: 35 Buckingham St, Surry Hills NSW 2010
+locations:
+  - Sydney CBD
+  - Sydney Inner West
+  - UTS / USyd area
+  - UNSW area
+  - Macquarie University area
+  - ACU area
 ebook:
   price: 40
   label: Axel Coaching E-book

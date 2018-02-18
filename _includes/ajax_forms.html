@@ -1,0 +1,28 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $("form").on("submit", function(event){
+      var form = $(this);
+      var url = form.attr('action');
+      var data = new FormData(form[0]);
+      $("#submit").prop('disabled', 'disabled')
+      var submit_value = $("#submit").val();
+      $("#submit").val('...');
+      $.ajax({ 
+        type: "POST",
+        url: url,
+        contentType: false,
+        processData: false,
+        data: data,
+        complete: function(response) {
+          swal("Message Sent", "Thanks for your enquiry, we'll be in touch as soon as possible.", "success");
+          $("#submit").val(submit_value)
+          $("#submit").prop('disabled', false);
+          form[0].reset();
+        }
+      });
+      return false;
+    })
+
+  });
+</script>
