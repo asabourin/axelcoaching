@@ -2,7 +2,7 @@
 title: working-holiday-package
 label: Working Holiday Package
 category: Packages
-position: 1
+position: 5
 price: 180
 ---
 Our WHV package is ideal for travellers coming to or just arriving in Australia. We coach you on how the local market works, how to find roles suited to your needs and what to expect from employers

@@ -2,7 +2,7 @@
 title: international-package
 label: International Package
 category: Packages
-position: 1
+position: 6
 prices: 
   - level: Career Starter
     type: Phone
