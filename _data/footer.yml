@@ -6,10 +6,13 @@
       link: /about/
     - name: Services
       link: /services/
+    - name: Bookings
+      link: /bookings/
+    - name: FAQ
+      link: /faq/
     - name: Contact
       link: /contact/
-    - name: Advice
-      link: /advice/
+
 - title: Social
   links:
     - name: Facebook

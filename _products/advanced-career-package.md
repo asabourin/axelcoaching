@@ -3,6 +3,7 @@ title: advanced-career-package
 label: Advanced Career Package
 category: Packages
 price: 860
+position: 1
 ---
 (10+ years work experience)
 

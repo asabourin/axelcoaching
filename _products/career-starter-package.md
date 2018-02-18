@@ -3,6 +3,7 @@ title: career-starter-package
 label: Career Starter Package
 category: Packages
 price: 340
+position: 1
 ---
 (< 1 year work experience)
 

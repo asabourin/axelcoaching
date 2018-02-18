@@ -1,0 +1,55 @@
+---
+title: Bookings
+call_to_action: Contact
+---
+
+<div class="booking-form">
+
+  <form id="booking" action="https://www.getform.org/u/b5e4d25e-07a2-4471-8a41-acf64b28d4e8" enctype="multipart/form-data" method="POST">
+  
+    <label for="email_address">Email Address</label>
+    <input id="email_address" type="email" name="email" required>
+
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" required>
+
+    <label for="number">Phone number</label>
+    <input id="number" type="text" name="number" required>
+
+    <label>Preferred Location</label>
+    <select name="preferred_location">
+      {% for location in site.data.company.locations %}
+        <option value="{{location}}">{{location}}</option>
+      {% endfor %}
+    </select>
+    
+    <label for="contact">Preferred Meeting</label>
+    <select name="preferred_meeting">
+      <option value="In person">In Person</option>
+      <option value="Phone">Phone</option>
+    </select>
+    
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message">Hi Axel Coaching,
+
+I'm interested in the following services:
+- [Service 1]
+- [Service 2]
+- ...
+
+I'm available between [time] and [time] on [dates]. Please let me know if any of these dates are available and we can lock in a time that suits.
+
+[I have attached my resume for your perusal.]
+
+Kind regards,
+[Name]
+    </textarea>
+
+    <label for="resume">Resume <small>(optional)</small></label>
+    <input type="file" id="resume" name="file">
+
+    <input id="submit" type="submit" value="Send">
+
+  </form>
+</div>

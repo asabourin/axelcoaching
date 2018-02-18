@@ -92,21 +92,10 @@ exclude:
   - README.md
   - LICENCE
 
-# -----------
-# CloudCannon
-
 call_to_actions:
   - Contact
-  - Advice
   - Map
 
 social_icons:
   - Facebook
-  - Google Plus
-  - Instagram
   - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS

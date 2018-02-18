@@ -12,13 +12,13 @@ layout: default
 
     <h3>Book now</h3>
 
-    {% assign products = site.products | where: "category", page.title %}
+    {% assign products = site.products | where: "category", page.title | sort: "position" %}
 
     {% for product in products %}
 
       <div class="box product-box">
 
-        <h4>{{product.label}}</h4>
+        <h4>{{product.label}} {{product.position}}</h4>
 
         <p>{{product.content}}</p>
 
@@ -35,7 +35,7 @@ layout: default
           <li class="{{class}}">
             <h5>{{ price_group.name }}</h5>
             {% for price in price_group.items %}
-              <a class="book-product" data-product="{{product.id}}" data-type="{{pricde.type}}" data-price="{{ price.price }}" href="#enquiry">
+              <a class="book-product" data-product="{{product.id}}" data-type="{{pricde.type}}" data-price="{{ price.price }}" href="{{ site.baseurl }}/bookings">
                 {{price.type}}: ${{ price.price }}
               </a>
             {% endfor %}
@@ -48,56 +48,4 @@ layout: default
     {% endfor %}
   </div>
 
-</div>
-
-<a name="enquiry"></a>
-
-<h3>Enquiry</h3>
-<div class="enquiry-form">
-
-  <form id="enquiry" action="https://www.getform.org/u/b5e4d25e-07a2-4471-8a41-acf64b28d4e8" enctype="multipart/form-data" method="POST">
-  
-    <label for="email_address">Email Address</label>
-    <input id="email_address" type="email" name="email" required>
-
-    <label for="name">Name</label>
-    <input id="name" type="text" name="name" required>
-
-    <label for="number">Phone number</label>
-    <input id="number" type="text" name="number" required>
-
-    <label>Preferred Location</label>
-    <select name="preferred_location">
-      {% for location in site.data.company.locations %}
-        <option value="{{location}}">{{location}}</option>
-      {% endfor %}
-    </select>
-    
-    <label for="contact">Preferred Meeting</label>
-    <select name="preferred_meeting">
-      <option value="In person">In Person</option>
-      <option value="Phone">Phone</option>
-    </select>
-    
-
-    <label for="message">Message</label>
-    <textarea id="message" name="message">Hi Axel Coaching,
-
-I'm interested in the following services:
-- [Service 1]
-- [Service 2]
-- ...
-
-I'm available between [time] and [time] on [dates].
-
-Kind regards,
-[Name]
-    </textarea>
-
-    <label for="resume">Resume <small>(optional)</small></label>
-    <input type="file" id="resume" name="file">
-
-    <input id="submit" type="submit" value="Send">
-
-  </form>
 </div>

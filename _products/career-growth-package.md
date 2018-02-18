@@ -3,6 +3,7 @@ title: career-growth-package
 label: Career Growth Package
 category: Packages
 price: 380
+position: 1
 ---
 (1 to 5 years
  experience)

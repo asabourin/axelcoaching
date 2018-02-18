@@ -2,6 +2,7 @@
 title: advanced-career-resume-writing
 label: Advanced Career
 category: Resume Writing
+position: 4
 prices: 
   - type: Phone
     price: 280
