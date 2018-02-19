@@ -4,6 +4,11 @@ label: Career Growth Package
 category: Packages
 price: 380
 position: 2
+prices: 
+  - type: Phone
+    price: 410
+  - type: Face to Face
+    price: 430
 ---
 (1 to 5 years
  experience)

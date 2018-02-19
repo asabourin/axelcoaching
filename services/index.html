@@ -9,8 +9,9 @@ layout: page
 <div class="post-list">
 	{% for service in site.services %}
 	<div class="box">
-		<h3><a href="{{service.url}}">{{service.title}}</a></h3>
-    {{service.content}}
+		<h3><a href="{{site.url}}{{service.url}}">{{service.title}}</a></h3>
+    {{service.content | markdownify | truncatewords: 100}}
+    <p class="text-center"><a class="button" href="{{site.url}}{{service.url}}">See details and pricing</a></p>
 	</div>
 	{% endfor %}
 </div>

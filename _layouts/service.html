@@ -20,8 +20,7 @@ layout: default
 
         <h4>{{product.label}}</h4>
 
-        <p>{{product.content}}</p>
-
+        {{product.content | markdownify}}
 
         {% assign grouped_prices = product.prices | group_by:"level" %}
         {% assign count = grouped_prices | size %}

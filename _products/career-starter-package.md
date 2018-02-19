@@ -4,6 +4,11 @@ label: Career Starter Package
 category: Packages
 price: 340
 position: 1
+prices: 
+  - type: Phone
+    price: 300
+  - type: Face to Face
+    price: 320
 ---
 (< 1 year work experience)
 

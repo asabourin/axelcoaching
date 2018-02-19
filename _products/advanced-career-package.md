@@ -3,6 +3,11 @@ title: advanced-career-package
 label: Advanced Career Package
 category: Packages
 position: 4
+prices: 
+  - type: Phone
+    price: 780
+  - type: Face to Face
+    price: 800
 ---
 (10+ years work experience)
 
