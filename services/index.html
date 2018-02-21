@@ -7,7 +7,8 @@ layout: page
 <p class="editable">Our offering:</p>
 
 <div class="post-list">
-	{% for service in site.services %}
+  {% assign services = site.services | sort: "position" %}
+	{% for service in services %}
 	<div class="box">
 		<h3><a href="{{site.url}}{{service.url}}">{{service.title}}</a></h3>
     {{service.content | markdownify | truncatewords: 100}}

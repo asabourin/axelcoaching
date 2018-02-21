@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	height: 360px;
+	height: 320px;
 	box-sizing: border-box;
 	background: linear-gradient(
       rgba(0, 0, 0, 0.2),
@@ -30,7 +30,7 @@ header {
 	}
 
 	.logo {
-		height: 200px;
+		height: 180px;
 	}
 
 	@media (min-width: $mobile-break) {
@@ -44,12 +44,14 @@ header {
 		}
 
 		.logo {
-			height: 250px;
+			margin-top: 10px;
+			height: 200px;
 		}
 
 	}
 
 	nav {
+		margin-top: 20px;
 		max-width: 100%;
 
 		ul {
