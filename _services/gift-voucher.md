@@ -12,4 +12,4 @@ Please get in touch if you would like to purchase a gift voucher and we will hap
 
 We can have the voucher sent by post or email as best suits your needs. 
 
-<a class="button" href="/contact">Contact Us!</a>
+<a class="button" href="/contact">Book Now!</a>
