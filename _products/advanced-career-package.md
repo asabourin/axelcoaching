@@ -13,3 +13,5 @@ The Advanced Career package encompasses assisting candidates with 10+ years work
 * Interview Preparation
 * Salary Guide
 * Free “Complete Guide to Job Hunting” e-book
+
+ <center><b><font color="red">SAVE $100</font></b></center>
