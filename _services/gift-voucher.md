@@ -3,7 +3,7 @@ title: Gift Vouchers
 position: 8
 ---
 <div style="text-align: center; font-weight:bold">
-_"We rise by lifting others" - Robert Ingersoll_
+"We rise by lifting others" - Robert Ingersoll
 </div>
 
 **_Feel like lifting a friend, family or coworkers career?_**
