@@ -15,4 +15,4 @@ This package is best suited for those who are in the beginning of their careers 
 * Salary guide
 * Free “Complete Guide to Job Hunting” e-book
 
-<b><font color="red">SAVE $50</font></b>
+ <center><b><font color="red">SAVE $50</font></b></center>
