@@ -10,5 +10,5 @@ This package suits internationals intending to move to or have moved to Australi
 * Interview Preparation
 * Job Search Coaching 
 * International Candidate Coaching 
-* Australian Market Insights and Salary Expectations 
+* Australian Salary Guide suited to your role
 * Free “Complete Guide to Job Hunting” e-book
