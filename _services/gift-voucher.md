@@ -16,6 +16,6 @@ We can have the voucher sent by post or email as best suits your needs.
 
 <img src="/uploads/gift_voucher.png">
 
-<a class="button" href="/contact">Book Now!</a>
+<p><a class="button" style="display: block; width: 200px; margin: 0 auto;" href="/contact">Book Now!</a></p>
 
 </div>
