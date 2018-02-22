@@ -8,4 +8,4 @@ Our Working Holiday package is ideal for travellers coming to or in Australia on
 
 * Tailored Resume to the Australian Market 
 * Job Search Coaching suited to WHV in Australia
-* Australian Salary Guide for WHV suited roles (availability dependant on location)
+* Australian Salary Guide for WHV suited roles
