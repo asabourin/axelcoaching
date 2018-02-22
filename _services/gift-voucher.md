@@ -2,7 +2,7 @@
 title: Gift Vouchers
 position: 8
 ---
-<div style="text-align: center">
+<div style="text-align: center; font-weight:bold">
 "We rise by lifting others" - Robert Ingersoll
 </div>
 
