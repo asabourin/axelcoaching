@@ -15,4 +15,4 @@ Our Career Starter Package is ideal for high school pupils, university/TAFE stud
 * Graduate/Starter Salary Guidelines
 * Free “Complete Guide to Job Hunting” e-book
 
-<b><font color="red">SAVE $40</font></b>
+ <center><b><font color="red">SAVE $40</font></b></center>
