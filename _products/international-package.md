@@ -1,6 +1,6 @@
 ---
 title: international-package
-label: International Package
+label: Expat Package
 category: Packages
 position: 6
 ---
@@ -10,4 +10,5 @@ This package suits internationals intending to move to or have moved to Australi
 * Interview Preparation
 * Job Search Coaching 
 * International Candidate Coaching 
-* Australian Market Insights and Salary Expectations Free “Complete Guide to Job Hunting” e-book
+* Australian Market Insights and Salary Expectations 
+* Free “Complete Guide to Job Hunting” e-book
