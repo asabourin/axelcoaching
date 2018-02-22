@@ -14,7 +14,7 @@ We can have the voucher sent by post or email as best suits your needs.
 
 <div style="text-align:center">
 
-<img src="/uploads/gift_voucher.png">
+<img src="https://raw.githubusercontent.com/asabourin/axelcoaching/master/uploads/screen%20shot%202018-02-22%20at%209.40.33%20pm%20copy.png">
 
 <p><a class="button" style="display: block; width: 200px; margin: 0 auto;" href="/contact">Book Now!</a></p>
 
