@@ -11,3 +11,5 @@ position: 3
 * Interview Preparation
 * Salary guide
 * Free “Complete Guide to Job Hunting” e-book
+
+  <b><font color="red">SAVE $70</font></b>
