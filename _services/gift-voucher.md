@@ -12,4 +12,4 @@ Please get in touch if you would like to purchase a gift voucher and we will hap
 
 We can have the voucher sent by post or email as best suits your needs. 
 
-[Book Now!](www.axelcoaching.com.au/bookings)
+<a class="button" href="www.axelcoaching.com.au/bookings">Book Now!</a>
