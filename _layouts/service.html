@@ -10,9 +10,11 @@ layout: default
       {{ page.content }}
     </p>
 
-    <h3>Book now</h3>
-
     {% assign products = site.products | where: "category", page.title | sort: "position" %}
+
+    {% if products.size > 0 %}
+    <h3>Book now</h3>
+    {% endif %}
 
     {% for product in products %}
 
